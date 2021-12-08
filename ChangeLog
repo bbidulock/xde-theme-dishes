@@ -1,5 +1,21 @@
 # created with git log --stat=76 -M -C -500|fmt -sct -w80
 
+commit cfb7c4beaea80ab3f9ffdbb580d857c51abfadea
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Wed Dec 8 13:21:52 2021 -0700
+
+    update release files
+
+ AUTHORS        |   2 +-
+ ChangeLog      |  28 ++++++++++++++++++++++++++++
+ NEWS           |  27 ++++++++++++++++++++++-----
+ README         |  34 +++++++++++++++++++++-------------
+ README.md      |  34 +++++++++++++++++++++-------------
+ configure.ac   |  12 ++++++------
+ index.md       |  34 +++++++++++++++++++++-------------
+ scrot/adwm.jpg | Bin 0 -> 227856 bytes
+ 8 files changed, 120 insertions(+), 51 deletions(-)
+
 commit c9f736197cc251758755254bbb0e0b46a5e7f162
 Author: Brian Bidulock <bidulock@openss7.org>
 Date:   Wed Dec 8 13:09:05 2021 -0700
