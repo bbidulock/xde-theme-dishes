@@ -1,5 +1,33 @@
 # created with git log --stat=76 -M -C -500|fmt -sct -w80
 
+commit c9f736197cc251758755254bbb0e0b46a5e7f162
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Wed Dec 8 13:09:05 2021 -0700
+
+    update build for gh-pages
+
+ .gitignore                         |  45 +++++++++---
+ AUTHORS                            |   4 +-
+ ChangeLog                          | 106 ++++++++++++++++++++++++++++
+ Makefile.am                        |  86 ++++++++++++++++++++++-
+ NEWS                               |  25 ++++---
+ README                             | 123 ++++++++++++++++++++++-----------
+ README.md                          | 107 ++++++++++++++++++++++++++++
+ README.md.in                       | 115 ++++++++++++++++++++++++++++++
+ RELEASE                            |  19 +++++
+ RELEASE.md                         |  19 +++++
+ TODO                               |  10 +++
+ _config.yml                        |   4 ++
+ autogen.sh                         |  49 +++++++++----
+ configure.template => configure.ac |  64 +++++++++++++++--
+ configure.sh                       |  44 ++++++++++++
+ dist.sh                            |   9 +++
+ gennews.sh                         |  50 ++++++++++++++
+ index.md                           | 110 +++++++++++++++++++++++++++++
+ logo.svg                           |  91 ++++++++++++++++++++++++
+ rebuild.sh                         |  11 +++
+ 20 files changed, 1015 insertions(+), 76 deletions(-)
+
 commit a42a23f824db786a3ab89af08fd840dbd33c07e6
 Author: Brian Bidulock <bidulock@openss7.org>
 Date:   Fri Sep 12 15:39:12 2014 -0600

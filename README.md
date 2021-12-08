@@ -1,10 +1,10 @@
-[xde-theme-dishes -- read me first file.  2014-09-12]: #
+[xde-theme-dishes -- read me first file.  2021-12-08]: #
 
 xde-theme-dishes
 ===============
 
-Package `xde-theme-dishes-1.1.4` was released under CCPL:cc-by-nc-nd-3.0
-license 2014-09-12.
+Package `xde-theme-dishes-1.2` was released under CCPL:cc-by-nc-nd-3.0
+license 2021-12-08.
 
 This is a theme and a set of backgrounds for the _XDE (X Desktop
 Environment)_ that provides a set of backgrounds on
@@ -18,7 +18,7 @@ The source for `xde-theme-dishes` is hosted on [GitHub][1].
 Release
 -------
 
-This is the `xde-theme-dishes-1.1.4` package, released 2014-09-12.
+This is the `xde-theme-dishes-1.2` package, released 2021-12-08.
 This release, and the latest version, can be obtained from [GitHub][1],
 using a command such as:
 
@@ -79,7 +79,14 @@ Report issues on GitHub [here][2].
 Samples
 -------
 
-Following are the seven wallpapers included in the theme:
+Following is a sample screenshot of the theme taken under the [ADWM][13]
+window manager:
+
+![adwm.jpg](scrot/adwm.jpg "Wallpaper #6")
+
+Following are the seven wallpapers included in the theme (consisting
+primarily of shots I took of microwave towers with hog-horns around
+Alberta using an old Canon PowerShot):
 
 ![hoghorns_millet3.jpg](images/hoghorns_millet3.jpg "Wallpaper #1")
 ![hoghorn.jpg](images/hoghorn.jpg "Wallpaper #2")
@@ -93,15 +100,16 @@ Following are the seven wallpapers included in the theme:
 
 [1]: https://github.com/bbidulock/xde-theme-dishes
 [2]: https://github.com/bbidulock/xde-theme-dishes/issues
-[3]: https://github.com/bbidulock/xde-theme-dishes/blob/master/RELEASE
-[4]: https://github.com/bbidulock/xde-theme-dishes/blob/master/NEWS
-[5]: https://github.com/bbidulock/xde-theme-dishes/blob/master/ChangeLog
-[6]: https://github.com/bbidulock/xde-theme-dishes/blob/master/TODO
-[7]: https://github.com/bbidulock/xde-theme-dishes/blob/master/COMPLIANCE
-[8]: https://github.com/bbidulock/xde-theme-dishes/blob/master/INSTALL
-[9]: https://github.com/bbidulock/xde-theme-dishes/blob/master/LICENSE
-[10]: https://github.com/bbidulock/xde-theme-dishes/blob/master/COPYING
+[3]: https://github.com/bbidulock/xde-theme-dishes/blob/1.2/RELEASE
+[4]: https://github.com/bbidulock/xde-theme-dishes/blob/1.2/NEWS
+[5]: https://github.com/bbidulock/xde-theme-dishes/blob/1.2/ChangeLog
+[6]: https://github.com/bbidulock/xde-theme-dishes/blob/1.2/TODO
+[7]: https://github.com/bbidulock/xde-theme-dishes/blob/1.2/COMPLIANCE
+[8]: https://github.com/bbidulock/xde-theme-dishes/blob/1.2/INSTALL
+[9]: https://github.com/bbidulock/xde-theme-dishes/blob/1.2/LICENSE
+[10]: https://github.com/bbidulock/xde-theme-dishes/blob/1.2/COPYING
 [11]: https://github.com/bbidulock/xde-styles
 [12]: https://github.com/bbidulock/xde-ctools
+[13]: https://bbidulock.github.io/adwm
 
 [ vim: set ft=markdown sw=4 tw=72 nocin nosi fo+=tcqlorn spell: ]: #
