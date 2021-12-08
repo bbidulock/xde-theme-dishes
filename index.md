@@ -1,3 +1,6 @@
+---
+layout: default
+---
 [xde-theme-dishes -- read me first file.  2014-09-12]: #
 
 xde-theme-dishes

@@ -1,0 +1,106 @@
+# created with git log --stat=76 -M -C -500|fmt -sct -w80
+
+commit a42a23f824db786a3ab89af08fd840dbd33c07e6
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Fri Sep 12 15:39:12 2014 -0600
+
+    added adwm style
+
+ Makefile.am        | 34 ++++++++++++++++++----------------
+ configure.template |  6 ++++++
+ 2 files changed, 24 insertions(+), 16 deletions(-)
+
+commit 78770ea80a073d4c1c75234fda880ac8874992c1
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Sun Aug 17 17:14:21 2014 -0600
+
+    add themerc file
+
+ Makefile.am   |  3 ++-
+ theme/themerc | 80 +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 82 insertions(+), 1 deletion(-)
+
+commit 9c3da1e24ba9180493490fb9a5b329ccf0ec2f0d
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Sat Jan 25 05:13:07 2014 -0700
+
+    added waimea support
+
+ Makefile.am        | 32 +++++++++++++++++---------------
+ configure.template |  6 ++++++
+ 2 files changed, 23 insertions(+), 15 deletions(-)
+
+commit 4a2c0f77da7ce5b3e947be45151a243dc62c1cc6
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Mon Dec 23 17:50:29 2013 -0700
+
+    updated description
+
+ README | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+commit 272a22e36cfa3f06604de3269ffadb510c7d7c7b
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Mon Dec 23 16:45:00 2013 -0700
+
+    initial commit
+
+ .gitignore                      |  12 ++++
+ AUTHORS                         |   3 +
+ COPYING                         |  58 +++++++++++++++++
+ Makefile.am                     | 105 ++++++++++++++++++++++++++++++
+ NEWS                            |  13 ++++
+ README                          |  65 +++++++++++++++++++
+ THANKS                          |   3 +
+ autogen.sh                      |  19 ++++++
+ configure.template              | 126 ++++++++++++++++++++++++++++++++++++
+ images/backyard.jpg             | Bin 0 -> 448654 bytes
+ images/blackheath.jpg           | Bin 0 -> 381753 bytes
+ images/bradsully.jpg            | Bin 0 -> 276656 bytes
+ images/brocoli.jpg              | Bin 0 -> 208286 bytes
+ images/cakepans.jpg             | Bin 0 -> 417019 bytes
+ images/dish_mist.jpg            | Bin 0 -> 236913 bytes
+ images/dish_sunset.jpg          | Bin 0 -> 283216 bytes
+ images/dish_wires.jpg           | Bin 0 -> 354343 bytes
+ images/dishes_frost.jpg         | Bin 0 -> 435188 bytes
+ images/dishes_urals.jpg         | Bin 0 -> 217964 bytes
+ images/dome_dishes.jpg          | Bin 0 -> 507443 bytes
+ images/high_dishes.jpg          | Bin 0 -> 350711 bytes
+ images/hoghorn.jpg              | Bin 0 -> 291644 bytes
+ images/hoghorn_valley.jpg       | Bin 0 -> 350285 bytes
+ images/hoghorns_millet1.jpg     | Bin 0 -> 350178 bytes
+ images/hoghorns_millet2.jpg     | Bin 0 -> 348711 bytes
+ images/hoghorns_millet3.jpg     | Bin 0 -> 350604 bytes
+ images/hoghorns_millet4.jpg     | Bin 0 -> 445473 bytes
+ images/hoghorns_millet5.jpg     | Bin 0 -> 444265 bytes
+ images/hoghorns_millet6.jpg     | Bin 0 -> 395518 bytes
+ images/hoghorns_millet7.jpg     | Bin 0 -> 508538 bytes
+ images/hoghorns_millet8.jpg     | Bin 0 -> 949329 bytes
+ images/hoghorns_millet9.jpg     | Bin 0 -> 475581 bytes
+ images/hoghorns_milletA.jpg     | Bin 0 -> 471962 bytes
+ images/hoghorns_milletB.jpg     | Bin 0 -> 439320 bytes
+ images/hoghorns_milletC.jpg     | Bin 0 -> 309732 bytes
+ images/hoghorns_milletD.jpg     | Bin 0 -> 312556 bytes
+ images/horn_dishes.jpg          | Bin 0 -> 521834 bytes
+ images/horn_dishes_centered.jpg | Bin 0 -> 393159 bytes
+ images/lightfoot.jpg            | Bin 0 -> 666188 bytes
+ images/oregon-peak.jpg          | Bin 0 -> 327858 bytes
+ images/rare.jpg                 | Bin 0 -> 648533 bytes
+ images/rare_centered.jpg        | Bin 0 -> 560399 bytes
+ images/relay_dishes.jpg         | Bin 0 -> 419731 bytes
+ images/ryerson.jpg              | Bin 0 -> 336658 bytes
+ images/storm_dishes.jpg         | Bin 0 -> 234387 bytes
+ images/storm_dishes2.jpg        | Bin 0 -> 235678 bytes
+ images/teleport.jpg             | Bin 0 -> 309030 bytes
+ images/telesat.jpg              | Bin 0 -> 333952 bytes
+ images/tower.jpg                | Bin 0 -> 370014 bytes
+ images/tower_all.jpg            | Bin 0 -> 329743 bytes
+ images/tower_dishes5.jpg        | Bin 0 -> 369963 bytes
+ images/tower_glow.jpg           | Bin 0 -> 233614 bytes
+ images/tower_mast.jpg           | Bin 0 -> 271428 bytes
+ images/twin_towers.jpg          | Bin 0 -> 350530 bytes
+ images/two_hoghorns.jpg         | Bin 0 -> 383813 bytes
+ images/two_hoghorns2.jpg        | Bin 0 -> 381858 bytes
+ theme/style                     |  51 +++++++++++++++
+ theme/theme.ini                 |  93 ++++++++++++++++++++++++++
+ 58 files changed, 548 insertions(+)
