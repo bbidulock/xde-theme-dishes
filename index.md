@@ -85,7 +85,7 @@ Samples
 Following is a sample screenshot of the theme taken under the [ADWM][13]
 window manager:
 
-![adwm.jpg](scrot/adwm.jpg "Wallpaper #6")
+![adwm.jpg](scrot/adwm.jpg "Wallpaper #1")
 
 Following are the seven wallpapers included in the theme (consisting
 primarily of shots I took of microwave towers with hog-horns around
