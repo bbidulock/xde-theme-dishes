@@ -1,5 +1,51 @@
 # created with git log --stat=76 -M -C -500|fmt -sct -w80
 
+commit a736f85cd6b738db90fd4197ab64fba153f3cf2a
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Wed Dec 8 23:52:10 2021 -0700
+
+    show additional wallpapers
+
+ README       | 44 ++++++++++++++++++++++++++++++++++++++++++++
+ README.md    | 44 ++++++++++++++++++++++++++++++++++++++++++++
+ README.md.in | 44 ++++++++++++++++++++++++++++++++++++++++++++
+ index.md     | 44 ++++++++++++++++++++++++++++++++++++++++++++
+ 4 files changed, 176 insertions(+)
+
+commit 02cb1921c39485129c01b5bd17214b18fbf2496b
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Wed Dec 8 23:13:30 2021 -0700
+
+    prepare for adwm theme
+
+ Makefile.am              |  5 +++-
+ configure.ac             |  6 ++++
+ theme/adwm/themerc       | 69 ++++++++++++++++++++++++++++++++++++++++++++
+ theme/{ => wmaker}/style |  0
+ 4 files changed, 79 insertions(+), 1 deletion(-)
+
+commit b3aad902e93607534660364390a8a40ff9cdeef4
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Wed Dec 8 18:54:13 2021 -0700
+
+    fix wallpaper number
+
+ README       | 2 +-
+ README.md    | 2 +-
+ README.md.in | 2 +-
+ index.md     | 2 +-
+ 4 files changed, 4 insertions(+), 4 deletions(-)
+
+commit 1dc9baf7889b308f9386326ec65d6d3804dc2134
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Wed Dec 8 13:23:02 2021 -0700
+
+    post-release update
+
+ ChangeLog | 16 ++++++++++++++++
+ NEWS      |  3 ++-
+ 2 files changed, 18 insertions(+), 1 deletion(-)
+
 commit cfb7c4beaea80ab3f9ffdbb580d857c51abfadea
 Author: Brian Bidulock <bidulock@openss7.org>
 Date:   Wed Dec 8 13:21:52 2021 -0700

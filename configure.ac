@@ -2,8 +2,8 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ(2.69)
-AC_INIT([xde-theme-dishes],[1.2],[https://github.com/bbidulock/xde-theme-dishes],[xde-theme-dishes],[https://github.com/bbidulock/xde-theme-dishes/issues])
-AC_REVISION([1.2])
+AC_INIT([xde-theme-dishes],[1.2.4],[https://github.com/bbidulock/xde-theme-dishes],[xde-theme-dishes],[https://github.com/bbidulock/xde-theme-dishes/issues])
+AC_REVISION([1.2.4])
 
 # set better defaults
 AC_PREFIX_DEFAULT([/usr])
@@ -22,7 +22,7 @@ AC_SUBST([DATE])
 MDOCDATE='December 8, 2021'
 AC_SUBST([MDOCDATE])
 
-BRANCH='1.2'
+BRANCH='1.2.4'
 AC_SUBST([BRANCH])
 
 # Initialize Automake
